@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://App/stage_0/BetterCamera/@Scenes/CameraAdjustor.gd" type="Script" id=1]
+
+[node name="CameraAdjustor" type="AspectRatioContainer"]
+margin_right = 1920.0
+margin_bottom = 1080.0
+ratio = 1.778
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ReferenceRect" type="ReferenceRect" parent="."]
+margin_top = 0.0675049
+margin_right = 1920.0
+margin_bottom = 1079.93
+border_color = Color( 0.184314, 1, 0, 1 )
+
+[node name="Position" type="Position2D" parent="."]
+position = Vector2( 960, 540 )
